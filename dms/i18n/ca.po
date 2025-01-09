@@ -6,13 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2025-01-09 11:06+0000\n"
+"Last-Translator: Eugeni Chafer <eugeni@chafer.cat>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #. module: dms
 #: model:ir.model.fields,help:dms.field_dms_directory__alias_process
@@ -27,30 +29,43 @@ msgid ""
 "                are created as files of the subdirectory.\n"
 "                "
 msgstr ""
+"                Definiu com es processen els correus electrònics entrants: \n"
+"\n"
+"                - Arxius únics: el correu electrònic s'adjunta a la carpeta "
+"i\n"
+"                 tots els adjunts es creen com a arxius.\n"
+"\n"
+"                - Subcarpeta: es crea una nova subcarpeta per a cada correu "
+"electrònic\n"
+"                i el correu d'adjunta en aquesta subcarpeta. Els adjunts\n"
+"                es creen com a arxius de la subcarpeta.\n"
+"                "
 
 #. module: dms
 #. odoo-python
 #: code:addons/dms/models/directory.py:0
 #, python-format
 msgid "%s Files"
-msgstr ""
+msgstr "%s Arxius"
 
 #. module: dms
 #. odoo-python
 #: code:addons/dms/models/directory.py:0
 #, python-format
 msgid "%s Subdirectories"
-msgstr ""
+msgstr "%s Subcarpetes"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.document_onboarding_directory_panel
+#, fuzzy
 msgid "/dms/static/lib/img/banner/documents_onboarding_directory.png"
-msgstr ""
+msgstr "/dms/static/lib/img/banner/documents_onboarding_directory.png"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.document_onboarding_file_panel
+#, fuzzy
 msgid "/dms/static/lib/img/banner/documents_onboarding_file.png"
-msgstr ""
+msgstr "/dms/static/lib/img/banner/documents_onboarding_file.png"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_file_kanban
@@ -58,6 +73,8 @@ msgid ""
 "<i class=\"fa fa-archive\"/>\n"
 "                                                Archive"
 msgstr ""
+"<i class=\"fa fa-archive\"/>\n"
+"                                                Arxivar"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_file_kanban
@@ -65,6 +82,8 @@ msgid ""
 "<i class=\"fa fa-archive\"/>\n"
 "                                                Unarchive"
 msgstr ""
+"<i class=\"fa fa-archive\"/>\n"
+"                                                Desarxivar"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_file_kanban
@@ -72,6 +91,8 @@ msgid ""
 "<i class=\"fa fa-download\"/>\n"
 "                                                Download"
 msgstr ""
+"<i class=\"fa fa-download\"/>\n"
+"                                                Descarregar"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.wizard_dms_file_move_form_view
